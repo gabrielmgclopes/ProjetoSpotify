@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Só funciona quando é usado display-flex */
+    justify-content: flex-start; /* Só funciona quando é usado display-flex */
+
+}
+
+progress {
+    height: 6px;
+    width: 0;
+}
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between; /*  Separa os elementos */
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botao-play {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas, .setas {
+    font-size: 35px ;
+    cursor: pointer;
+}
